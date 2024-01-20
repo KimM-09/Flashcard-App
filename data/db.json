@@ -9,11 +9,6 @@
       "name": "React Router",
       "description": "React Router is a collection of navigational components that compose declaratively with your application.",
       "id": 2
-    },
-    {
-      "name": "Testing",
-      "description": "This is to see if i should add the add card button to then next screen",
-      "id": 3
     }
   ],
   "cards": [
@@ -42,16 +37,10 @@
       "id": 4
     },
     {
-      "front": "What does <Switch> do?",
-      "back": "Renders the first matching child <Route> ",
+      "front": "What does <Switch> do?\n",
+      "back": "Renders the first matching child <Route> \n",
       "deckId": 2,
       "id": 5
-    },
-    {
-      "front": "It was",
-      "back": "Already there",
-      "deckId": 3,
-      "id": 6
     }
   ]
 }

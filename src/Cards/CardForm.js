@@ -78,7 +78,7 @@ function CardForm({ handleSubmit, handleCancel, card }) {
                     ></textarea>
                 </div>
                 <div>
-                    <label hrmlFor="back">
+                    <label htmlFor="back">
                         Back
                     </label>
                     <textarea
