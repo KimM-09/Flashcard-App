@@ -20,5 +20,5 @@ function ListCards({deck}) {
         </main>
     )
 }
-
+ 
 export default ListCards;

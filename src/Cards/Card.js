@@ -9,7 +9,7 @@ function Card ({ card }) {
         const result = window.confirm("Delete this card? You will NOT be able to recover it.")
         if (result) {
             await deleteCard(card.id);
-            history.push("/");
+            history.go(0);
         }
     };
 

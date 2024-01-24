@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 function CardForm({ handleSubmit, handleCancel, card }) {
 
     const [ cardInfo, setCardInfo ] = useState();
+    
     useEffect(() => {
         setCardInfo(card);
     }, [card]);
@@ -17,14 +18,14 @@ function CardForm({ handleSubmit, handleCancel, card }) {
         handleSubmit(cardInfo);
         setCardInfo({});
     };
-
+ 
     if(!cardInfo) {
         return (
             <form onSubmit={submit}>
                 <div>
-                    <label>
+                    <p>
                         Front
-                    </label>
+                    </p>
                     <textarea
                     className="form-control"
                     type="text"
@@ -37,9 +38,9 @@ function CardForm({ handleSubmit, handleCancel, card }) {
                     ></textarea>
                 </div>
                 <div>
-                    <label>
+                    <p>
                         Back
-                    </label>
+                    </p>
                     <textarea
                     className="form-control"
                     type="text"

@@ -14,12 +14,12 @@ const DeckList = () => {
         .catch(setError);
 
         return () => abortController.abort();
-    }, []);
+    }, [setDecks, setError]);
 
     if(error) {
         return <ErrorMessage error={error} />;
     }
-
+ 
     const list = decks.map((deck) => <Deck deck={deck} key={deck.id} />);
 
     return (

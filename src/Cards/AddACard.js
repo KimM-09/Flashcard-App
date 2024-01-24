@@ -21,7 +21,7 @@ function AddACard () {
                 } else {
                     throw err;
                 }
-            }
+            } 
         }
         deckInfo();
 

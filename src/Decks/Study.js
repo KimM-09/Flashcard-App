@@ -4,7 +4,7 @@ import FlashCard from "../Cards/FlipCard";
 import { readDeck } from "../utils/api/index";
 import NotEnoughCards from "../Layout/NotEnoughCards";
 import CardOutline from "../Cards/CardOutline";
-
+ 
 function Study() {
     const [ deck, setDeck ] = useState({ cards: [] });
     const [ cardId, setCardId ] = useState(0);

@@ -2,10 +2,11 @@ import React, { useEffect, useState } from "react";
 
 function DeckForm({ handleSubmit, handleCancel, deck }) {
     const [ deckInfo, setDeckInfo ] = useState(deck);
+    
     useEffect(() => {
         setDeckInfo(deck);
     }, [deck]);
-
+ 
     const update = (event) => {
         const { name, value } = event.target;
         setDeckInfo({...deckInfo, [name]: value });
@@ -47,7 +48,7 @@ function DeckForm({ handleSubmit, handleCancel, deck }) {
                 <button className="btn btn-secondary my-2" onClick={handleCancel}>
                     Cancel
                 </button>
-                <button type="submit" className="btn btn-primaryc my-2">
+                <button type="submit" className="btn btn-primary my-2">
                     Submit
                 </button>
             </div>

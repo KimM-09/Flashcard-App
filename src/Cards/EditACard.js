@@ -39,7 +39,7 @@ function EditACard () {
                 }
             }
         }
-        loadCard();
+        loadCard(); 
         return () => abortController.abort();
     }, [cardId, deckId]);
 

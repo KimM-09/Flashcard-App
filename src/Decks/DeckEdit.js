@@ -22,7 +22,7 @@ function DeckEdit() {
                 } else {
                     throw err;
                 }
-            }
+            } 
         }
         loadDeck();
 

@@ -14,7 +14,7 @@ function DeckView() {
         }
         loadDeck();
     }, [deckId])
-
+ 
     if(deck.id) {
         return (
             <div>
