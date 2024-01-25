@@ -2,8 +2,18 @@
   "decks": [
     {
       "name": "AEW Wrestling Trivia",
-      "description": "Are you an Elite Super-Fan? Test your knowledge of All Elite Wrestling",
+      "description": "Are you an All Elite Super-Fan? Test your knowledge of All Elite Wrestling",
       "id": 1
+    },
+    {
+      "name": "test",
+      "description": "to test study function with too dew cards",
+      "id": 2
+    },
+    {
+      "name": "trial",
+      "description": "deck",
+      "id": 3
     }
   ],
   "cards": [
@@ -30,6 +40,48 @@
       "back": "Ghost Town Triumph",
       "deckId": 1,
       "id": 5
+    },
+    {
+      "front": "this",
+      "back": "that and the other thing",
+      "deckId": 1,
+      "id": 6
+    },
+    {
+      "front": "I need",
+      "back": "the form to reset",
+      "deckId": 1,
+      "id": 7
+    },
+    {
+      "front": "how about",
+      "back": "this",
+      "deckId": 1,
+      "id": 8
+    },
+    {
+      "front": "how about",
+      "back": "this",
+      "deckId": 1,
+      "id": 9
+    },
+    {
+      "front": "success",
+      "back": "!!",
+      "deckId": 1,
+      "id": 10
+    },
+    {
+      "front": "hello",
+      "back": "from the other side",
+      "deckId": 1,
+      "id": 11
+    },
+    {
+      "front": "only",
+      "back": "one card",
+      "deckId": 2,
+      "id": 12
     }
   ]
 }

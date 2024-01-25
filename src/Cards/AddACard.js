@@ -7,6 +7,7 @@ function AddACard () {
     const history = useHistory();
     const { deckId } = useParams();
     const [ deck, setDeck ] = useState({});
+   
 
     useEffect(() => {
         const abortController = new AbortController();
@@ -32,7 +33,7 @@ function AddACard () {
     async function handleSubmit(card) {
         try {
             await createCard(deckId, card);
-            history.push(`/decks/${deck.id}`);
+            history.push(0);  //`/decks/${deck.id}`
         } catch (err) {
             if (err.name === "AbortError") {
                 console.info("aborted");
@@ -43,7 +44,7 @@ function AddACard () {
     }
 
     function handleCancel () {
-        history.push(`/decks/${deckId}`);
+        history.push("/");  //`/decks/${deckId}
     }
 
     return (

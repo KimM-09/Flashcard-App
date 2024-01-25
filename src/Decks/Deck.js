@@ -16,9 +16,9 @@ function Deck({deck}) {
 
     return (
         <article className="col-12 col-md-6 col-xl-3 my-2">
-            <div className="card">
+            <div>
                 <div className="card-body">
-                <h3>{deck.name}</h3>
+                <h3>{deck.name}</h3>  
                 <h5>{deck.cards.length} cards</h5>
                 <p>{deck.description}</p>
                 <Link className="btn btn-warning" to={`/decks/${deck.id}`}>
